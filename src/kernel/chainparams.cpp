@@ -171,9 +171,6 @@ public:
     }
 };
 
-/**
- * Testnet (v3): public test network which is reset from time to time.
- */
 class CTestNetParams : public CChainParams {
 public:
     CTestNetParams() {
@@ -266,7 +263,6 @@ public:
         };
     }
 };
-
 /**
  * Signet: test network with an additional consensus parameter (see BIP325).
  */
